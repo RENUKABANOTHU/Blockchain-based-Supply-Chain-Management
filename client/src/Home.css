@@ -1,0 +1,73 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e8f0fe);
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+    min-height: 100vh;
+  }
+  
+  .home-card {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 720px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .home-card h3 {
+    color: #0d47a1;
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .home-card h5 {
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .home-card h6 {
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .home-card button {
+    display: block;
+    margin: 10px 0 20px;
+    padding: 12px 20px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .home-card button:hover {
+    background-color: #1565c0;
+  }
+  
+  hr {
+    margin: 40px 0;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
